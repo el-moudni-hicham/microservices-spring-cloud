@@ -12,9 +12,13 @@
 * [Inventory Service](#inventory-service)
 
 ## Customer Service
+Create a new Spring project :<br>
+<kbd>
+  <img src="https://user-images.githubusercontent.com/85403056/236404166-0cdd0aed-05b3-4c44-95d6-79daf41bf5c6.png">
+</kbd>
 
 ```
-Selected dependencies
+Selected dependencies :
 • Spring Web 
 • Spring Data JPA 
 • H2 Database
@@ -30,7 +34,6 @@ Steps :
   3. Deploy Restful API of microservice with Spring Data Rest
   4. Microservice test
 
-
 ## Inventory Service
 
 Steps :
@@ -40,6 +43,4 @@ Steps :
   4. Microservice test
 
 
-<kbd>
-  <img src="https://i.stack.imgur.com/CtiyS.png">
-</kbd>
+
