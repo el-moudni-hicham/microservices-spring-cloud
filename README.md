@@ -352,7 +352,7 @@ Selected dependencies
 
 <table>
 <tr>
-<td width="100%">
+<td width="50%">
            <p align="center">
              <h5 align="center">Bill Complet Informations</h5>
              <img src="https://user-images.githubusercontent.com/85403056/236586249-7faed1f5-7037-41dd-8e6c-67a258553c72.png" alt="project example"/>
