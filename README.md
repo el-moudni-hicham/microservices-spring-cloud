@@ -30,8 +30,8 @@
 
 </td></tr></table>
 
+> Selected dependencies 
 ```
-Selected dependencies :
 • Spring Web 
 • Spring Data JPA 
 • H2 Database
@@ -41,7 +41,7 @@ Selected dependencies :
 • Eureka Discovery Client
 • Spring Boot Actuator 
 ```
-Application Configuration `application.properties`
+> Application Configuration `application.properties`
 ```java
 spring.application.name=customer-service
 spring.datasource.url=jdbc:h2:mem:customers-db
@@ -122,7 +122,7 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
 </tr>
 </table>
 
-* Database [H2](http://localhost:8888/h2-console)
+> Database [H2](http://localhost:8888/h2-console)
 <table>
 <tr>
 <td width="50%">
@@ -140,7 +140,7 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
 ## Inventory Service
 
-Application Configuration `application.properties`
+> Application Configuration `application.properties`
 ```java
 spring.application.name=inventory-service
 spring.datasource.url=jdbc:h2:mem:products-db
@@ -174,21 +174,21 @@ server.port=8889
 
 ## Gateway Service
 
+> Selected dependencies
 ```
-Selected dependencies
 • Gateway 
 • Spring Boot Actuator
 • Hystrix 
 • Eureka Discovery Client 
 ```
 ## 1. Static routes configuration : application.yml / application.properties
-`application.properties`
+> `application.properties`
 ```java
 spring.application.name=gateway-service
 spring.cloud.discovery.enabled=true
 server.port=8890
 ```
-`application.yml`
+> `application.yml`
 ```java
 spring:
   cloud:
@@ -253,11 +253,11 @@ spring:
 
 ## Eureka Discovery Service
 
+> Selected dependencies
 ```
-Selected dependencies
 • Eureka Server
 ```
- EnableEurekaServer 
+> EnableEurekaServer 
 ```java
 @SpringBootApplication
 @EnableEurekaServer
@@ -268,7 +268,7 @@ public class EurekaDiscoveryApplication {
 }
 ```
 
-`application.properties`
+> `application.properties`
 ```java
 server.port=8761
 # dont register server itself as a client.
@@ -287,7 +287,7 @@ eureka.client.register-with-eureka=false
 </tr>
 </table>
 
-* Static routes configuration with Discovery Service
+> Static routes configuration with Discovery Service
 ```java
     @Bean
     RouteLocator routeLocator(RouteLocatorBuilder builder){
@@ -315,7 +315,7 @@ eureka.client.register-with-eureka=false
 </tr>
 </table>
 
-* Dynamic routes configuration with Discovery Service
+> Dynamic routes configuration with Discovery Service
 
 ```java
     @Bean
@@ -344,12 +344,12 @@ eureka.client.register-with-eureka=false
 
 ## Billing Service
 
+> Selected dependencies
 ```
-Selected dependencies
 • OpenFeign 
 • Spring HATEOAS
 ```
-* Service Test
+> Service Test 
 
 <table>
 <tr>
