@@ -22,11 +22,13 @@
 ## Customer Service
 * Create a new Spring project :<br>
 
-<table><tr><td>
-<img src="https://user-images.githubusercontent.com/85403056/236404166-0cdd0aed-05b3-4c44-95d6-79daf41bf5c6.png">
+<table><tr>
+<td ">
+          <p align="center">
+             <img src="https://user-images.githubusercontent.com/85403056/236404166-0cdd0aed-05b3-4c44-95d6-79daf41bf5c6.png" alt="project example" width="75%"/>
+            </p>
+
 </td></tr></table>
-
-
 
 ```
 Selected dependencies :
