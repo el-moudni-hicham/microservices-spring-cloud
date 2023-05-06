@@ -20,7 +20,7 @@
 * [Billing Service](#billing-service)
 
 ## Customer Service
-* Create a new Spring project :<br>
+> Create a new Spring project :<br>
 
 <table><tr>
 <td ">
