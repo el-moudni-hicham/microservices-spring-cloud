@@ -6,12 +6,18 @@
  • Open Feign Rest Client
  • Hystrix DashBoard 
 ```
+> Project Class Diagram
+<table><tr><td>
+<img src="https://user-images.githubusercontent.com/85403056/236585102-84377ea4-b260-4c5d-9245-a2c8ff2d2b54.png">
+</td></tr></table>
+
 
 ## Table of contents
 * [Customer Service](#customer-service)
 * [Inventory Service](#inventory-service)
 * [Gateway Service](#gateway-service)
 * [Eureka Discovery Service](#eureka-discovery-service)
+* [Billing Service](#billing-service)
 
 ## Customer Service
 * Create a new Spring project :<br>
@@ -329,6 +335,37 @@ eureka.client.register-with-eureka=false
           <p align="center">
              <h5 align="center">Access to All Products from Gateway</h5>
              <img src="https://user-images.githubusercontent.com/85403056/236434249-ae66d7c8-6cfc-425e-bc52-b647332c3733.png"/>
+            </p>
+ </td>
+</tr>
+</table>
+
+## Billing Service
+
+```
+Selected dependencies
+• OpenFeign 
+• Spring HATEOAS
+```
+* Service Test
+<table>
+<tr><td width="100%">
+          <p align="center">
+             <h5 align="center">Bill Complet Informations</h5>
+             <img src="https://user-images.githubusercontent.com/85403056/236586249-7faed1f5-7037-41dd-8e6c-67a258553c72.png" alt="project example"/>
+            </p>
+<td width="100%"></tr>
+<tr>
+<td width="50%">
+          <p align="center">
+             <h5 align="center">Bill Complet Informations</h5>
+             <img src="https://user-images.githubusercontent.com/85403056/236586493-4da8fa55-2935-4a2f-996d-b9da75f21d9a.png" alt="project example"/>
+            </p>
+ </td>
+ <td width="50%">
+          <p align="center">
+             <h5 align="center">Access to All Products from Gateway</h5>
+             <img src="https://user-images.githubusercontent.com/85403056/236586397-626bb453-51c1-4b32-b65c-5db55acb7af5.png"/>
             </p>
  </td>
 </tr>
