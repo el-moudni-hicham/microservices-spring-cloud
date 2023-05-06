@@ -349,7 +349,6 @@ Selected dependencies
 ```
 * Service Test
 
-
 <table>
 <tr>
 <td width="50%">
@@ -359,9 +358,6 @@ Selected dependencies
             </p>
  </td>
 </tr>
-</table>
-
-<table>
 <tr>
 <td width="50%">
           <p align="center">
