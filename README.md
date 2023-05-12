@@ -378,6 +378,6 @@ eureka.client.register-with-eureka=false
 </table>
 
                                                                                                                              
-## Front End Part with Angular:
+## II - Front End Part with Angular :
                                                                                                                              
-Link to [Front End]([https://github.com/angular/angular-cli](https://github.com/el-moudni-hicham/microservices-spring-cloud-angular/tree/master/frontend/e-commerce-app-angular)) part.
+Link to [Front End](https://github.com/el-moudni-hicham/microservices-spring-cloud-angular/tree/master/frontend/e-commerce-app-angular) part.
