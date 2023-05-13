@@ -113,6 +113,7 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
           <p align="center">
              <img src="https://user-images.githubusercontent.com/85403056/236414349-3f86ffb3-2e2a-4815-a55a-4b1ab40dddb1.png" alt="project example"/>
             </p>
+                                                                                                                                                   
  </td>
  <td width="50%">
           <h5 align="center">Actuator Health<h5>
