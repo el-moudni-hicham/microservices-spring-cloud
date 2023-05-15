@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class BillingRestController {
     private BillRepository billRepository;
@@ -40,5 +42,22 @@ public class BillingRestController {
             pi.setProductName(product.getName());
         });
         return bill;
+    }
+
+    @GetMapping(path = "/customerBills/{id}")
+    public List<Bill> getCustomerBills(@PathVariable(name = "id") Long id){
+        List<Bill> bills = billRepository.findBillsByCustmerID(id);
+        bills.forEach(bill -> {
+            Customer customer = customerRestClient.findCustomerById(bill.getCustmerID());
+            bill.setCustomer(customer);
+
+            bill.getProductItems().forEach(pi -> {
+                Product product = productItemRestClient.findProductById(pi.getProductID());
+                //pi.setProduct(product);
+                pi.setProductName(product.getName());
+            });
+        });
+
+        return bills;
     }
 }

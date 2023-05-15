@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f998c93-f93d-427d-b339-b7cfccaf2138" name="Changes" comment="" />
+    <list default="true" id="1f998c93-f93d-427d-b339-b7cfccaf2138" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/products/products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/e-commerce-app-angular/src/app/products/products.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2OYYy65ZJBsWuYCryt2kcOEsdhE" />
   <component name="ProjectViewState">
@@ -23,6 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/MR SDIA/IdeaProjects Java/microservises-spring-cloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +52,7 @@
       <updated>1681739239127</updated>
       <workItem from="1681739241527" duration="169000" />
       <workItem from="1682957148403" duration="607000" />
+      <workItem from="1684103379750" duration="339000" />
     </task>
     <servers />
   </component>

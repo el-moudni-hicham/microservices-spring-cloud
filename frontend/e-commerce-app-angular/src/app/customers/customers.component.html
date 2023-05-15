@@ -1,0 +1,47 @@
+<div class="container mt-4">
+  <div class="page-content page-container" id="page-content">
+    <div class="padding">
+      <ng-template #errors>
+        <div class="text-danger">
+          {{errMessage}}
+        </div>
+      </ng-template>
+      <div class="row container d-flex justify-content-center" *ngIf="customers; else errors">
+
+        <div>
+          <h3> All Customers</h3>
+          <br/>
+        </div>
+        <div class="card rounded-0">
+
+          <div class="card-body">
+
+            <!--    {{searchFormGroup.value | json }}-->
+            <table class="table table-striped">
+              <thead>
+              <tr>
+                <td>ID</td>
+                <td>NAME</td>
+                <td>EMAIL</td>
+                <td>Billing</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let c of customers._embedded.customers">
+                <td>{{c.id}}</td>
+                <td>{{c.name}}</td>
+                <td>{{c.email}}</td>
+                <td>
+                  <button class="btn btn-sm btn-success" (click)="getBilling(c)">Bills</button>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
